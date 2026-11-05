@@ -3,8 +3,9 @@
 Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3 S1 Pro, pensadas para vender no Mercado Livre, TikTok Shop, Shopee, Amazon, Magalu e loja própria.
 
 **Arquivos deste repositório:**
-- [`planilha-precos-impressao3d.xlsx`](planilha-precos-impressao3d.xlsx): calculadora de preço com as taxas de 2026 por faixa de preço, **100 produtos**, ranking de lucro por hora e aba para pesquisar concorrentes e aba com os anúncios do top 10.
+- [`planilha-precos-impressao3d.xlsx`](planilha-precos-impressao3d.xlsx): calculadora de preço com as taxas de 2026 por faixa de preço, **100 produtos**, ranking de lucro por hora e aba para pesquisar concorrentes e aba com os anúncios dos 100 produtos.
 - [`ANUNCIOS-TOP10.md`](ANUNCIOS-TOP10.md): títulos (Mercado Livre, Shopee e TikTok Shop), descrições, variações e palavras-chave dos 10 produtos mais lucrativos.
+- [`ANUNCIOS-DEMAIS-90.md`](ANUNCIOS-DEMAIS-90.md): anúncios dos outros 90 produtos, organizados por categoria.
 - [`ANALISE-MERCADO.md`](ANALISE-MERCADO.md): análise dos marketplaces, dos perfis de vendedores, dos produtos que mais saem e do calendário de vendas.
 
 > ⚠️ **O Elo7 encerrou as operações em 11/05/2026.** Os produtos personalizados agora vão para TikTok Shop, Shopee e Instagram/WhatsApp.
