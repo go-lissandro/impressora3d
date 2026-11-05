@@ -1,6 +1,12 @@
 # Impressão 3D para marketplaces: análise de produtos (Ender 3 S1 Pro)
 
-Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3 S1 Pro, pensadas para vender no Mercado Livre, Shopee, Amazon, Elo7 e Magalu.
+Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3 S1 Pro, pensadas para vender no Mercado Livre, TikTok Shop, Shopee, Amazon, Magalu e loja própria.
+
+**Arquivos deste repositório:**
+- [`planilha-precos-impressao3d.xlsx`](planilha-precos-impressao3d.xlsx): calculadora de preço com as taxas de 2026 por faixa de preço, 50 produtos, ranking de lucro por hora e aba para pesquisar concorrentes.
+- [`ANALISE-MERCADO.md`](ANALISE-MERCADO.md): análise dos marketplaces, dos perfis de vendedores, dos produtos que mais saem e do calendário de vendas.
+
+> ⚠️ **O Elo7 encerrou as operações em 11/05/2026.** Os produtos personalizados agora vão para TikTok Shop, Shopee e Instagram/WhatsApp.
 
 > Todos os valores (tempo, gramas, preço) são **estimativas** para te ajudar a começar. Confirme o tempo no fatiador (Cura, OrcaSlicer ou Creality Print) e as taxas atuais de cada marketplace antes de definir o preço.
 
@@ -46,10 +52,11 @@ embalagem = R$ 1,50 a R$ 3,00 (saquinho, plástico bolha e caixa)
 Preço mínimo = (custo + frete que você paga + taxa fixa do marketplace) ÷ (1 − comissão − imposto − margem desejada)
 ```
 
-Referências de taxas em 2026 (**confira a tabela atual de cada plataforma**):
-- **Mercado Livre:** comissão de cerca de 11 a 14 % no anúncio Clássico e 16 a 19 % no Premium. Itens abaixo de cerca de R$ 79 também pagam uma taxa fixa de aproximadamente R$ 6 a 7.
-- **Shopee:** comissão de cerca de 14 a 20 % mais uma taxa fixa por item.
-- **Elo7:** comissão de cerca de 18 a 20 %. É o melhor canal para produtos **personalizados**.
+Taxas de referência em nov/2026 (a planilha já aplica a faixa certa; **confirme sempre no simulador oficial**):
+- **Mercado Livre:** comissão de 10 a 14 % no Clássico ou de 15 a 19 % no Premium. Abaixo de R$ 79 há um custo por peso (cerca de R$ 5,65 a R$ 7,75 para pacotes até 0,3 kg). A partir de R$ 79, o frete grátis é pago por você.
+- **Shopee (CNPJ):** até R$ 79,99 = 20 % + R$ 4,50; de R$ 80 a R$ 99,99 = 14 % + R$ 16; de R$ 100 a R$ 199,99 = 14 % + R$ 20; a partir de R$ 200 = 14 % + R$ 26.
+- **TikTok Shop:** abaixo de R$ 50 = 10 % + R$ 4; a partir de R$ 50 = 6 % + R$ 6.
+- **Loja própria, Instagram e WhatsApp:** cerca de 3 % de gateway. É o melhor canal para personalizados e brindes.
 - **Imposto:** no MEI você paga um valor fixo por mês (DAS), que é o mais simples para começar.
 
 **Regra prática:** venda por **pelo menos 3 vezes o custo**. Produtos com menos que isso viram prejuízo depois de pagar taxas e frete.
@@ -58,6 +65,8 @@ Referências de taxas em 2026 (**confira a tabela atual de cada plataforma**):
 
 ## 3. Produtos recomendados (2 a 4 h)
 
+A lista completa com **50 produtos** e o cálculo de lucro em cada canal está na planilha. Abaixo estão os destaques.
+
 Legenda de **concorrência**: 🟢 baixa, 🟡 média, 🔴 alta.
 **Margem** = preço sugerido ÷ custo estimado.
 
@@ -65,11 +74,11 @@ Legenda de **concorrência**: 🟢 baixa, 🟡 média, 🔴 alta.
 
 | # | Produto | Tempo | Filamento | Custo est. | Preço sugerido | Margem | Concorrência | Melhor canal |
 |---|---|---|---|---|---|---|---|---|
-| 1 | **Topo de bolo com nome/idade** | 1–2 h | 15–25 g | R$ 5 | R$ 29–45 | 6–9× | 🟡 | Elo7, Shopee |
-| 2 | **Chaveiros com nome (lote de 10–20 por mesa)** | 2–3 h/lote | 4–6 g cada | R$ 1,50 cada | R$ 8–15 cada (kits para festas e empresas) | 5–10× | 🟡 | Shopee, Elo7 |
-| 3 | **Cortador de biscoito/fondant personalizado** | 1–2 h | 15–25 g | R$ 4 | R$ 25–40 | 6–10× | 🟢 | Elo7 |
-| 4 | **Placa de porta / plaquinha de pet com nome (2 cores, trocando o filamento na camada)** | 2–3 h | 30–40 g | R$ 7 | R$ 35–55 | 5–7× | 🟢 | Elo7, ML |
-| 5 | **Litofania (foto do cliente) 10×10 cm** | 3–4 h | 25–35 g (PLA branco) | R$ 8 | R$ 49–89 (com base/LED, até R$ 129) | 6–10× | 🟢 | Elo7, Shopee |
+| 1 | **Topo de bolo com nome/idade** | 1–2 h | 15–25 g | R$ 5 | R$ 29–45 | 6–9× | 🟡 | Shopee, Instagram |
+| 2 | **Chaveiros com nome (lote de 10–20 por mesa)** | 2–3 h/lote | 4–6 g cada | R$ 1,50 cada | R$ 8–15 cada (kits para festas e empresas) | 5–10× | 🟡 | Shopee, Instagram |
+| 3 | **Cortador de biscoito/fondant personalizado** | 1–2 h | 15–25 g | R$ 4 | R$ 25–40 | 6–10× | 🟢 | Shopee |
+| 4 | **Placa de porta / plaquinha de pet com nome (2 cores, trocando o filamento na camada)** | 2–3 h | 30–40 g | R$ 7 | R$ 35–55 | 5–7× | 🟢 | Shopee, ML |
+| 5 | **Litofania (foto do cliente) 10×10 cm** | 3–4 h | 25–35 g (PLA branco) | R$ 8 | R$ 49–89 (com base/LED, até R$ 129) | 6–10× | 🟢 | Shopee, Instagram |
 | 6 | **Brindes corporativos com logo** (porta-celular, chaveiro, porta-caneta) | 2–3 h | 20–40 g | R$ 5–8 | pedido em lote | 4–6× | 🟢 | contato direto, ML |
 
 ### B. Gamer e setup de escritório (ticket bom e vende o ano todo)
@@ -87,17 +96,17 @@ Legenda de **concorrência**: 🟢 baixa, 🟡 média, 🔴 alta.
 
 | # | Produto | Tempo | Filamento | Custo est. | Preço sugerido | Margem | Concorrência | Melhor canal |
 |---|---|---|---|---|---|---|---|---|
-| 13 | **Vaso geométrico ou cachepô (modo vaso, PLA seda/marmorizado)** | 2–3 h | 40–70 g | R$ 9 | R$ 35–59 | 4–6× | 🟡 | Shopee, Elo7 |
+| 13 | **Vaso geométrico ou cachepô (modo vaso, PLA seda/marmorizado)** | 2–3 h | 40–70 g | R$ 9 | R$ 35–59 | 4–6× | 🟡 | Shopee, Instagram |
 | 14 | **Organizadores de gaveta no padrão Gridfinity (kit)** | 2–4 h | 50–80 g | R$ 12 | R$ 39–69 | 3–5× | 🟢 | ML |
 | 15 | **Porta-copos (kit com 4–6) + suporte** | 2–3 h | 40–60 g | R$ 9 | R$ 29–45 | 3–5× | 🟡 | Shopee |
-| 16 | **Porta-incenso / porta-velas decorativo** | 1,5–2,5 h | 25–40 g | R$ 6 | R$ 25–39 | 4–6× | 🟢 | Shopee, Elo7 |
+| 16 | **Porta-incenso / porta-velas decorativo** | 1,5–2,5 h | 25–40 g | R$ 6 | R$ 25–39 | 4–6× | 🟢 | Shopee, Instagram |
 | 17 | **Suporte de parede para controle remoto / chaves** | 1,5–2 h | 25–35 g | R$ 6 | R$ 22–35 | 4–5× | 🟡 | ML, Shopee |
 
 ### D. Brinquedos e fidgets (vendem por impulso)
 
 | # | Produto | Tempo | Filamento | Custo est. | Preço sugerido | Margem | Concorrência | Melhor canal |
 |---|---|---|---|---|---|---|---|---|
-| 18 | **Animais articulados ("flexi") de 12–18 cm (impressos já montados)** | 2–4 h | 20–45 g | R$ 6 | R$ 25–45 | 4–6× | 🔴 | Shopee, TikTok Shop |
+| 18 | **Animais articulados ("flexi") de 12–18 cm (impressos já montados)** | 2–4 h | 20–45 g | R$ 6 | R$ 25–45 | 4–6× | 🔴 | TikTok Shop, Shopee |
 | 19 | **Fidgets (engrenagens e espirais impressas já montadas)** | 1–2 h | 15–25 g | R$ 4 | R$ 15–25 | 4–6× | 🟡 | Shopee |
 
 ---
@@ -144,7 +153,7 @@ Escolha **5 a 8 produtos** para testar durante 30 dias. Esta é a ordem que eu r
 
 ## 7. Formalização (resumo)
 
-- Abra um **MEI** para emitir nota fiscal. A Amazon e o Mercado Livre (incluindo o Full) cobram nota em muitas situações. Confirme com um contador qual atividade (CNAE) do MEI se encaixa na sua produção.
+- Abra um **MEI** para emitir nota fiscal. A Amazon e o Mercado Livre (incluindo o Full) cobram nota em muitas situações. O teto do MEI é de R$ 81 mil por ano. Confirme com um contador qual atividade (CNAE) do MEI se encaixa na sua produção.
 - **Capacidade de uma impressora:** cerca de 6 a 8 peças de 3 h por dia (≈ 20 h de uso), ou seja, de 150 a 200 peças por mês. Com uma margem média de R$ 25 por peça, isso dá entre **R$ 3.000 e R$ 5.000 de lucro bruto por mês**, se você conseguir vender tudo. Quando a demanda passar disso, compre uma segunda impressora.
 
 ---
@@ -154,6 +163,6 @@ Escolha **5 a 8 produtos** para testar durante 30 dias. Esta é a ordem que eu r
 | Semana | Ação |
 |---|---|
 | 1 | Calibrar a impressora, imprimir uma amostra dos 8 produtos, fotografar e medir o tempo e as gramas reais |
-| 2 | Publicar os 8 anúncios em 2 canais (sugestão: Shopee + Mercado Livre, e Elo7 para os personalizados) |
+| 2 | Publicar os 8 anúncios em 2 canais (sugestão: Shopee + Mercado Livre) e abrir o TikTok Shop |
 | 3 | Ajustar preço e título pelas visitas e conversões; divulgar no Instagram e no TikTok (vídeo da impressora imprimindo vende muito) |
 | 4 | Cortar os 3 produtos piores e criar variações (cores e tamanhos) dos 3 melhores |
