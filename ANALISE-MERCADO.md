@@ -99,8 +99,8 @@ Use a aba **"Concorrentes"** da planilha:
 
 ## 5. Armadilhas de preço por faixa (use a seu favor)
 
-- **Shopee, R$ 79,99 x R$ 80,00:** a R$ 79,99 você paga R$ 20,50 de taxa. A R$ 80,00 paga **R$ 27,20**. Mantenha os kits em **até R$ 79,99**, ou suba direto para **R$ 110 ou mais**.
-- **Mercado Livre, R$ 78,99 x R$ 79,00:** a partir de R$ 79 o frete grátis é seu (cerca de R$ 12 a R$ 20). Se a sua faixa ideal é entre R$ 79 e R$ 95, você ganha mais em R$ 78,90.
+- **Shopee, R$ 79,99 x R$ 80,00:** a R$ 79,99 você paga R$ 20,50 de taxa. A R$ 80,00 paga **R$ 27,20**. A conta só volta a compensar a partir de **cerca de R$ 88**. **Evite a faixa de R$ 80 a R$ 87,99.** O mesmo acontece em R$ 100 (evite de R$ 100 a R$ 104,99).
+- **Mercado Livre, R$ 78,99 x R$ 79,00:** a partir de R$ 79 o frete grátis é seu (cerca de R$ 12 a R$ 20). **Evite a faixa de R$ 79 a cerca de R$ 85.** Nela você ganha menos que vendendo a R$ 78,90.
 - **TikTok Shop, perto de R$ 50:** a diferença é pequena. A R$ 49,90 você paga cerca de R$ 9 e a R$ 50, cerca de R$ 9. Fique à vontade nessa faixa.
 - **Itens abaixo de R$ 20** quase não dão lucro em nenhum marketplace por causa da taxa fixa. **Transforme em kit.**
 
