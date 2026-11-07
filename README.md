@@ -1,9 +1,9 @@
-# Impressão 3D para marketplaces: análise de produtos (Ender 3 S1 Pro)
+# Impressão 3D para marketplaces: análise de produtos (Ender 3 S1 Pro + Ender 3 V3 KE)
 
-Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3 S1 Pro, pensadas para vender no Mercado Livre, TikTok Shop, Shopee, Amazon, Magalu e loja própria.
+Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3 S1 Pro (ou em cerca de metade do tempo na Ender 3 V3 KE), pensadas para vender no Mercado Livre, TikTok Shop, Shopee, Amazon, Magalu e loja própria.
 
 **Arquivos deste repositório:**
-- [`planilha-precos-impressao3d.xlsx`](planilha-precos-impressao3d.xlsx): calculadora de preço com as taxas de 2026 por faixa de preço, **100 produtos**, ranking de lucro por hora e aba para pesquisar concorrentes e aba com os anúncios dos 100 produtos.
+- [`planilha-precos-impressao3d.xlsx`](planilha-precos-impressao3d.xlsx): calculadora de preço com as taxas de 2026 por faixa de preço, **100 produtos**, ranking de lucro por hora, comparação entre as duas impressoras, aba para pesquisar concorrentes e aba com os anúncios dos 100 produtos.
 - [`ANUNCIOS-TOP10.md`](ANUNCIOS-TOP10.md): títulos (Mercado Livre, Shopee e TikTok Shop), descrições, variações e palavras-chave dos 10 produtos mais lucrativos.
 - [`ANUNCIOS-DEMAIS-90.md`](ANUNCIOS-DEMAIS-90.md): anúncios dos outros 90 produtos, organizados por categoria.
 - [`MODELOS-UTILIDADES.md`](MODELOS-UTILIDADES.md): modelos 3D de caixas organizadoras e utilidades domésticas, com a licença de cada um (pode vender ou não).
@@ -15,17 +15,32 @@ Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3
 
 ---
 
-## 1. O que a sua impressora consegue fazer
+## 1. O que as suas impressoras conseguem fazer
 
-| Item | Ender 3 S1 Pro |
+| Item | Ender 3 S1 Pro | Ender 3 V3 KE |
+|---|---|---|
+| Volume de impressão | 220 × 220 × 270 mm | 220 × 220 × 240 mm |
+| Extrusora | Direct drive "Sprite" | Direct drive |
+| Hotend | até 300 °C | até 300 °C |
+| Mesa | PEI magnética com nivelamento automático | PEI magnética com nivelamento automático |
+| Firmware | Marlin | Creality OS |
+| Velocidade | 50 a 80 mm/s com boa qualidade | até 500 mm/s (na prática, cerca de 2× mais rápida que a S1 Pro) |
+| Materiais | PLA, PETG, TPU (ABS/ASA precisam de gabinete) | PLA, PETG, TPU (ABS/ASA precisam de gabinete) |
+
+**Como os tempos foram estimados:** os tempos da planilha são da **S1 Pro** (bico de 0,4 mm, camada de 0,20 a 0,28 mm, preenchimento de 10 a 15 % gyroid, cerca de 60 mm/s). Para a **V3 KE**, a planilha multiplica pelo "fator de tempo" (0,5 por padrão; aba Premissas, linha 37).
+
+### Como dividir o trabalho entre as duas
+
+| Use a **V3 KE** para... | Use a **S1 Pro** para... |
 |---|---|
-| Volume de impressão | 220 × 220 × 270 mm |
-| Extrusora | Direct drive "Sprite", então imprime TPU (flexível) bem |
-| Hotend | até 300 °C, aceita PLA, PETG, TPU e ABS/ASA (ABS precisa de um gabinete) |
-| Mesa | PEI magnética com nivelamento automático (CR-Touch) |
-| Velocidade realista (firmware de fábrica) | 50 a 80 mm/s com boa qualidade |
+| Peças funcionais e de volume: Gridfinity, organizadores, suportes, prendedores, kits | Litofanias (precisam de impressão lenta e precisa) |
+| Pedidos grandes (brindes corporativos e lembrancinhas em lote) | PLA seda e decorativos, onde o acabamento importa mais que a velocidade |
+| Estoque dos campeões de venda | Personalizados com letras pequenas e detalhes |
+| Peças altas de até 240 mm | Peças entre 240 e 270 mm de altura (só ela tem essa altura) |
 
-**Como os tempos abaixo foram estimados:** bico de 0,4 mm, camada de 0,20 a 0,28 mm, preenchimento de 10 a 15 % (gyroid), cerca de 60 mm/s.
+- **Na KE, use filamento "high speed" (PLA de alta velocidade).** O PLA comum não derrete rápido o suficiente acima de cerca de 200 mm/s, e a peça sai fraca ou com falhas de extrusão.
+- **Meça o fator de tempo real:** fatie a mesma peça para as duas impressoras, divida o tempo da KE pelo tempo da S1 Pro e coloque o resultado na planilha. Peças pequenas ganham menos com a velocidade, porque a impressora quase não chega à velocidade máxima.
+- A planilha mostra, para cada produto, o custo e o lucro por hora **nas duas impressoras**, a "impressora sugerida" e o lucro por dia usando as duas.
 **Dica para ganhar tempo:** um **bico de 0,6 mm** (cerca de R$ 15) corta de 30 a 40 % do tempo em vasos e peças grandes, que não precisam de detalhe fino.
 
 ---
@@ -157,7 +172,7 @@ Escolha **5 a 8 produtos** para testar durante 30 dias. Esta é a ordem que eu r
 ## 7. Formalização (resumo)
 
 - Abra um **MEI** para emitir nota fiscal. A Amazon e o Mercado Livre (incluindo o Full) cobram nota em muitas situações. O teto do MEI é de R$ 81 mil por ano. Confirme com um contador qual atividade (CNAE) do MEI se encaixa na sua produção.
-- **Capacidade de uma impressora:** cerca de 6 a 8 peças de 3 h por dia (≈ 20 h de uso), ou seja, de 150 a 200 peças por mês. Com uma margem média de R$ 25 por peça, isso dá entre **R$ 3.000 e R$ 5.000 de lucro bruto por mês**, se você conseguir vender tudo. Quando a demanda passar disso, compre uma segunda impressora.
+- **Capacidade das duas impressoras:** uma peça que leva 3 h na S1 Pro leva cerca de 1,5 h na V3 KE. Com cerca de 18 h de uso por dia, a S1 Pro faz umas 6 dessas peças e a KE umas 12, ou seja, **cerca de 18 por dia e de 450 a 500 por mês**. Com uma margem média de R$ 20 a R$ 25 por peça, o teto seria de **R$ 9.000 a R$ 12.000 de lucro bruto por mês**, se você vender tudo. Na prática, quem limita é a venda, não a produção. Atenção ao **teto do MEI: R$ 81 mil por ano (cerca de R$ 6.750 por mês de faturamento)**. Com as duas impressoras cheias e preço médio de R$ 40, você faturaria perto de R$ 18 mil por mês e passaria do teto. Quando o faturamento chegar perto de R$ 6.000 por mês, fale com um contador sobre mudar para ME no Simples Nacional.
 
 ---
 
