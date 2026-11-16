@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lissandro Miranda | Desenvolvedor</title>
+  <meta name="description" content="Portfólio pessoal de Lissandro Miranda Rocha: desenvolvedor Go, Python e TypeScript em Belo Horizonte.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#inicio" class="brand"><span class="brand-mark">&lt;/&gt;</span> lissandro<span class="accent">.dev</span></a>
+    <button class="menu-btn" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="#inicio" data-route="inicio">Início</a>
+      <a href="#sobre" data-route="sobre">Sobre</a>
+      <a href="#projetos" data-route="projetos">Projetos</a>
+      <a href="#contato" data-route="contato">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- INÍCIO -->
+    <section id="inicio" class="page">
+      <div class="hero">
+        <div class="hero-text">
+          <p class="eyebrow mono">Olá, eu sou</p>
+          <h1>Lissandro <span class="grad">Miranda Rocha</span></h1>
+          <p class="typed mono"><span id="typed"></span><span class="caret">|</span></p>
+          <p class="lead">Desenvolvedor em Belo Horizonte construindo APIs em Go, backends e estudos em Python e interfaces em TypeScript. Gosto de estudar segurança, blockchain e transformar ideias em projetos reais.</p>
+          <div class="cta">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn btn-ghost">Fale comigo</a>
+          </div>
+          <ul class="stats" id="stats"></ul>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-ring">
+            <img src="https://avatars.githubusercontent.com/u/255753222?v=4" alt="Foto de perfil de Lissandro" width="280" height="280">
+          </div>
+          <span class="badge-float b1 mono">Go</span>
+          <span class="badge-float b2 mono">Python</span>
+          <span class="badge-float b3 mono">TypeScript</span>
+        </div>
+      </div>
+
+      <div class="section-head">
+        <h2>Projetos em destaque</h2>
+        <a href="#projetos" class="link-more">Ver todos →</a>
+      </div>
+      <div class="grid" id="featured"></div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="page" hidden>
+      <div class="page-title">
+        <p class="eyebrow mono">// sobre mim</p>
+        <h1>Quem sou <span class="grad">eu</span></h1>
+      </div>
+
+      <div class="about">
+        <div class="card about-card">
+          <img class="about-avatar" src="https://avatars.githubusercontent.com/u/255753222?v=4" alt="" width="120" height="120">
+          <h3>Lissandro Miranda Rocha</h3>
+          <p class="muted">📍 Belo Horizonte, MG</p>
+          <p class="muted mono">@go-lissandro</p>
+          <div class="socials">
+            <a href="https://github.com/go-lissandro" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://br.linkedin.com/in/lissandro-miranda-rocha" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="about-text">
+          <p>Sou desenvolvedor e uso esta conta do GitHub principalmente para projetos em <strong>Golang</strong>, mas meu dia a dia passa por várias stacks. Construo APIs com Go, Fiber, GORM e Docker, desenvolvo backends e automações em Python com FastAPI e crio frontends em TypeScript e JavaScript.</p>
+          <p>Tenho interesse em <strong>segurança da informação</strong> (simulação de malware para fins educacionais), <strong>criptomoedas</strong> (estudos sobre Monero) e <strong>inteligência artificial</strong>. Gosto de aprender fazendo: cada estudo vira um repositório.</p>
+          <p class="muted">Também mantenho outros projetos nas contas <a href="https://github.com/lissandrojs" target="_blank" rel="noopener">lissandrojs</a> e <a href="https://github.com/lissandro7" target="_blank" rel="noopener">lissandro7</a>.</p>
+        </div>
+      </div>
+
+      <h2 class="sub">Tecnologias</h2>
+      <div class="skills" id="skills"></div>
+
+      <h2 class="sub">Linguagens nos meus repositórios</h2>
+      <div class="card lang-card"><div class="lang-bar" id="lang-bar"></div><ul class="lang-legend" id="lang-legend"></ul></div>
+
+      <h2 class="sub">Linha do tempo</h2>
+      <ol class="timeline" id="timeline"></ol>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="page" hidden>
+      <div class="page-title">
+        <p class="eyebrow mono">// projetos</p>
+        <h1>Meus <span class="grad">projetos</span></h1>
+        <p class="muted">Repositórios pessoais do GitHub, sem projetos de organizações. <span id="sync-status" class="mono small"></span></p>
+      </div>
+      <div class="toolbar">
+        <input type="search" id="search" placeholder="Buscar projeto…" aria-label="Buscar projeto">
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="grid" id="all-projects"></div>
+      <p class="empty muted" id="empty" hidden>Nenhum projeto encontrado.</p>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="page" hidden>
+      <div class="page-title">
+        <p class="eyebrow mono">// contato</p>
+        <h1>Vamos <span class="grad">conversar</span>?</h1>
+        <p class="muted">Aberto a oportunidades, freelas e colaborações em projetos.</p>
+      </div>
+      <div class="contact-grid">
+        <a class="card contact-card" href="https://br.linkedin.com/in/lissandro-miranda-rocha" target="_blank" rel="noopener">
+          <span class="icon">in</span><div><h3>LinkedIn</h3><p class="muted">lissandro-miranda-rocha</p></div>
+        </a>
+        <a class="card contact-card" href="https://github.com/go-lissandro" target="_blank" rel="noopener">
+          <span class="icon">gh</span><div><h3>GitHub</h3><p class="muted">@go-lissandro</p></div>
+        </a>
+        <div class="card contact-card">
+          <span class="icon">📍</span><div><h3>Localização</h3><p class="muted">Belo Horizonte, MG, Brasil</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Lissandro Miranda Rocha · Feito com HTML, CSS e JavaScript</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
