@@ -9,6 +9,7 @@ Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3
 - [`MODELOS-UTILIDADES.md`](MODELOS-UTILIDADES.md): modelos 3D de caixas organizadoras e utilidades domésticas, com a licença de cada um (pode vender ou não).
 - [`LINKS-STL.md`](LINKS-STL.md): links de STL para os 100 produtos, com a licença conferida na página de cada modelo, e geradores online para os personalizados.
 - [`CONFIG-PETG-FATIADOR.md`](CONFIG-PETG-FATIADOR.md): perfil completo do PETG Masterprint no fatiador (temperaturas, retração, velocidades) para a S1 Pro e a V3 KE, com a ordem das calibrações.
+- [`GIRO-SEM-ESTOQUE-PARADO.md`](GIRO-SEM-ESTOQUE-PARADO.md): como vender sem deixar produto parado: sob encomenda, prazo de fabricação em cada marketplace, estoque mínimo e regra dos 30 dias.
 - [`PERSONALIZADOS-QUE-VENDEM.md`](PERSONALIZADOS-QUE-VENDEM.md): os 10 personalizados com mais potencial de venda, o que fazer para o Natal e como deixar o anúncio chamativo.
 - [`ANALISE-MERCADO.md`](ANALISE-MERCADO.md): análise dos marketplaces, dos perfis de vendedores, dos produtos que mais saem e do calendário de vendas.
 
