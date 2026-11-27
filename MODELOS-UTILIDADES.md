@@ -2,7 +2,7 @@
 
 Pesquisa de novembro de 2026 com modelos úteis para casa e dia a dia, pensada para **vender** as peças impressas. Por isso, o mais importante aqui é a **licença**.
 
-> **Como as licenças foram verificadas:** a Printables, a Thingiverse e a MakerWorld bloqueiam acesso automático (Cloudflare), então eu não consegui abrir as páginas. As licenças marcadas como ✅ foram confirmadas pelo texto da página que aparece no buscador ou pelo repositório oficial. Para as marcadas como ⚠️, **abra o link e confira o campo "License"** antes de vender (leva 1 minuto). Tire um print da licença com a data e guarde como comprovante.
+> **Como as licenças foram verificadas:** em 27/11/2026, a licença de cada link foi lida na própria página do modelo com o [Firecrawl](https://github.com/firecrawl/firecrawl) (os sites bloqueiam acesso automático simples). Marcadas como "(conferido)": lidas na página. Mesmo assim, abra o link antes de vender e tire um print da licença com a data, porque o autor pode mudá-la. Veja também o [`LINKS-STL.md`](LINKS-STL.md), com modelos para os 100 produtos da planilha.
 
 ---
 
@@ -30,9 +30,9 @@ Esses sistemas são modulares: o cliente compra uma vez e **volta para comprar m
 | **Gridfinity** (caixinhas modulares para gaveta e bancada) | ✅ **MIT** | [Especificação oficial (Printables)](https://www.printables.com/model/417152-gridfinity-specification) · [Gridfinity Rebuilt (OpenSCAD, GitHub)](https://github.com/kennetek/gridfinity-rebuilt-openscad) | A página da especificação diz que o design "pode ser usado em produtos comerciais". O Gridfinity Rebuilt é MIT e gera caixas de qualquer tamanho |
 | Geradores de Gridfinity online | ⚠️ conferir os termos do site | [gridfinity.xyz](https://gridfinity.xyz) · [printer.tools](https://www.printer.tools/tools/gridfinity-generator) | Você escolhe o tamanho e baixa o STL. A geometria é Gridfinity (MIT), mas confira os termos de cada site |
 | **openGrid** (painel de parede modular, 28 mm) | ✅ **CC BY 4.0** (peças principais) | [Documentação oficial](https://github.com/openGrid-3D/openGrid-docs) · [Printables](https://www.printables.com/model/1214361-opengrid-walldesk-mounting-framework-and-ecosystem) · [MakerWorld](https://makerworld.com/en/models/1179191-opengrid-wall-desk-mounting-framework-ecosystem) | Os tiles gerados no customizador são CC BY, mas o **código** do gerador é BY-NC-SA. Os conectores openConnect são CC BY. Acessórios de terceiros têm licença própria |
-| **Honeycomb Storage Wall (HSW)**, de RostaP | ⚠️ não confirmada | [Printables 152592](https://www.printables.com/model/152592-honeycomb-storage-wall) | Muito popular (270 mil+ downloads). Confira a licença antes de vender |
+| **Honeycomb Storage Wall (HSW)**, de RostaP | ❌ **CC BY-NC** (conferido) | [Printables 152592](https://www.printables.com/model/152592-honeycomb-storage-wall) | Muito popular (270 mil+ downloads), mas é não comercial: não venda |
 | **Multiboard** | 💰 plano comercial pago | [Thangs, Multiboard](https://thangs.com/designer/Multiboard) | Para vender, é preciso o plano com licença comercial (limite de US$ 50 mil por ano) |
-| Acessórios **IKEA Skadis** (painel perfurado) | ⚠️ varia por modelo | [Coleção de suportes (Printables)](https://www.printables.com/model/837406-ikea-skadis-peg-board-mounts-collection) | Não use "IKEA" no título; escreva "compatível com painel Skadis" |
+| Acessórios **IKEA Skadis** (painel perfurado) | ❌ **CC BY-NC** nesta coleção (conferido); cada acessório tem a sua | [Coleção de suportes (Printables)](https://www.printables.com/model/837406-ikea-skadis-peg-board-mounts-collection) | Não use "IKEA" no título; escreva "compatível com painel Skadis" |
 
 **Dica para a Ender 3 S1 Pro:** a mesa tem 220 × 220 mm e cada módulo Gridfinity tem 42 mm. A placa base maior que cabe inteira é a de **5 × 5 módulos** (210 mm). Para gavetas maiores, venda várias placas que se encaixam.
 
@@ -43,11 +43,11 @@ Esses sistemas são modulares: o cliente compra uma vez e **volta para comprar m
 | Modelo | Licença | Link |
 |---|---|---|
 | Caixa paramétrica personalizável (lectrolytus) | ✅ **CC BY-SA** | [Thingiverse 7069530](https://www.thingiverse.com/thing:7069530) |
-| Caixa com tampa de dobradiça e trava, paramétrica (Luca Koch, OpenSCAD) | ⚠️ "Creative Commons 4.0": confira se é BY ou BY-NC | [Printables 1517296](https://www.printables.com/model/1517296-parametric-hinged-storage-box-with-snap-fit-lid-cu) |
-| Rugged Storage Box (caixa robusta sem parafusos, RDesigns) | ⚠️ não confirmada | [Printables 819715](https://www.printables.com/model/819715-rugged-storage-box-parametric-screwless) · [versão Mini](https://printables.com/model/851837-rugged-storage-box-mini-parametric-screwless) |
-| Caixa Gridfinity com tampa (Pred) | ⚠️ não confirmada | [Printables 543553](https://www.printables.com/model/543553-gridfinity-storage-box-by-pred-now-parametric) |
-| Caixa com tampa e texto, paramétrica (EJTH) | ⚠️ não confirmada | [Printables 62878](https://www.printables.com/model/62878-parametric-box-lid-with-text) |
-| Caixa com gaveta escondida, paramétrica | ⚠️ não confirmada | [Printables 1781440](https://www.printables.com/model/1781440-parametric-hidden-sliding-box-fully-customizable-s) |
+| Caixa com tampa de dobradiça e trava, paramétrica (Luca Koch, OpenSCAD) | ✅ **CC BY** (conferido) | [Printables 1517296](https://www.printables.com/model/1517296-parametric-hinged-storage-box-with-snap-fit-lid-cu) |
+| Rugged Storage Box (caixa robusta sem parafusos, RDesigns) | ❌ **CC BY-NC** (conferido, as duas versões) | [Printables 819715](https://www.printables.com/model/819715-rugged-storage-box-parametric-screwless) · [versão Mini](https://printables.com/model/851837-rugged-storage-box-mini-parametric-screwless) |
+| Caixa Gridfinity com tampa (Pred) | ❌ **CC BY-NC** (conferido) | [Printables 543553](https://www.printables.com/model/543553-gridfinity-storage-box-by-pred-now-parametric) |
+| Caixa com tampa e texto, paramétrica (EJTH) | ✅ **CC BY-SA** (conferido) | [Printables 62878](https://www.printables.com/model/62878-parametric-box-lid-with-text) |
+| Caixa com gaveta escondida, paramétrica | ❌ **CC BY-NC-ND** (conferido) | [Printables 1781440](https://www.printables.com/model/1781440-parametric-hidden-sliding-box-fully-customizable-s) |
 | ~~Parametric Storage Box (print-in-place)~~ | ❌ "commercial use strictly prohibited" | [MakerWorld 1832500](https://makerworld.com/en/models/1832500-parametric-storage-box) |
 | ~~96mm Ultimate Drawer Organizer Gridfinity~~ | ❌ MakerWorld Exclusive, sem uso comercial | [MakerWorld 2962310](https://makerworld.com/models/2962310) |
 
@@ -61,10 +61,10 @@ Esses sistemas são modulares: o cliente compra uma vez e **volta para comprar m
 | Suporte para tampas de panela ajustável, de parede (XVavron) | ✅ **CC BY** | [Thingiverse 3160244](https://www.thingiverse.com/thing:3160244) |
 | Organizador de tampas de panela (kleinkort) | ✅ **CC BY** | [Thingiverse 4709038](https://www.thingiverse.com/thing:4709038) |
 | Prendedor de saco print-in-place (neoyarus) | ✅ **CC BY-SA** | [Printables 83628](https://www.printables.com/model/83628-print-in-place-bag-clip) |
-| Prendedor de saco com trava excêntrica, print-in-place (Andrei) | ⚠️ não confirmada | [Printables 27216](https://www.printables.com/model/27216-bag-clip-print-in-place-cam) |
-| Prendedor de saco (Roy) | ⚠️ não confirmada | [Printables 1352742](https://www.printables.com/model/1352742-bag-clip) |
-| Organizador de tampas, paramétrico | ⚠️ não confirmada | [Printables 1310111](https://www.printables.com/model/1310111-lid-organizer-parametric) |
-| Suporte de tampas para porta de armário | ⚠️ não confirmada | [Printables 829983](https://www.printables.com/model/829983-panpot-lit-holder-for-kitchen-cabinet) |
+| Prendedor de saco com trava excêntrica, print-in-place (Andrei) | ✅ **GPL v3** (conferido; pode vender) | [Printables 27216](https://www.printables.com/model/27216-bag-clip-print-in-place-cam) |
+| Prendedor de saco (Roy) | ✅ **CC BY** (conferido) | [Printables 1352742](https://www.printables.com/model/1352742-bag-clip) |
+| Organizador de tampas, paramétrico | ❌ **CC BY-NC-SA** (conferido) | [Printables 1310111](https://www.printables.com/model/1310111-lid-organizer-parametric) |
+| Suporte de tampas para porta de armário | ✅ **CC BY-SA** (conferido) | [Printables 829983](https://www.printables.com/model/829983-panpot-lit-holder-for-kitchen-cabinet) |
 | ~~Ultimate Gridfinity Kitchen Drawer Organizer~~ | ❌ CC BY-NC-ND (não comercial) | [MakerWorld 608048](https://makerworld.com/en/models/608048-ultimate-gridfinity-kitchen-drawer-organizer) |
 | ~~IKEA 365 Lid Rack, paramétrico~~ | ❌ Standard Digital File License | MakerWorld |
 | ~~Mini Bag Clips (ArgiCZ)~~ | ❌ CC BY-NC | [Printables 1690364](https://www.printables.com/model/1690364-mini-bag-clips) |
@@ -75,9 +75,9 @@ Esses sistemas são modulares: o cliente compra uma vez e **volta para comprar m
 
 | Modelo | Licença | Link |
 |---|---|---|
-| Porta-escova de dentes para gaveta (Ryan), com arquivo STEP editável | ⚠️ "Creative Commons": confira a variante | [Printables 21249](https://www.printables.com/model/21249-drawer-toothbrush-holder) |
-| Organizador de bancada/banheiro (NoobWithAPrinter) | ⚠️ não confirmada | [MakerWorld 1592064](https://makerworld.com/en/models/1592064-countertop-bathroom-organizer) |
-| Bathroom organizer | ⚠️ não confirmada | [MakerWorld 749013](https://makerworld.com/en/models/749013-bathroom-organizer) |
+| Porta-escova de dentes para gaveta (Ryan), com arquivo STEP editável | ✅ **CC0** (conferido) | [Printables 21249](https://www.printables.com/model/21249-drawer-toothbrush-holder) |
+| Organizador de bancada/banheiro (NoobWithAPrinter) | ❌ Standard Digital File License (conferido) | [MakerWorld 1592064](https://makerworld.com/en/models/1592064-countertop-bathroom-organizer) |
+| Bathroom organizer | ✅ **CC BY** (conferido) | [MakerWorld 749013](https://makerworld.com/en/models/749013-bathroom-organizer) |
 | ~~Modular Bathroom Organizer (Spike_Mix)~~ | 💰 só para assinantes | [MakerWorld 383320](https://makerworld.com/en/models/383320-modular-bathroom-organizer) |
 
 **Material:** no banheiro e perto da pia, use **PETG**. Ele aguenta umidade e limpeza melhor que o PLA. Prefira modelos com furos de drenagem e sem cantos que acumulem água.
@@ -88,7 +88,7 @@ Esses sistemas são modulares: o cliente compra uma vez e **volta para comprar m
 
 | Modelo | Licença | Link |
 |---|---|---|
-| Organizador de cabos com dobradiça, para parede ou embaixo da mesa | ⚠️ não confirmada | [Printables 78770](https://www.printables.com/model/78770-hinged-cable-organizer-wall-under-table-mounted) |
+| Organizador de cabos com dobradiça, para parede ou embaixo da mesa | ✅ **CC BY-SA** (conferido) | [Printables 78770](https://www.printables.com/model/78770-hinged-cable-organizer-wall-under-table-mounted) |
 | ~~Cable Clip / Cable Organizer (MakerTom)~~ | ❌ CC BY-NC | [Printables 567022](https://www.printables.com/model/567022-cable-clip-cable-organizer-super-easy-to-print) |
 
 ---
@@ -116,12 +116,12 @@ A Bambu Lab criou um programa em que o **designer vende uma assinatura** que dá
 | Caixa organizadora de cabos Gridfinity para gaveta (remix) | ✅ **CC BY-SA** | [MakerWorld 946444](https://makerworld.com/en/models/946444-gridfinity-cable-organizer-drawer-storage-cable-bo) |
 | openGrid (painel de parede) e conectores openConnect | ✅ **CC BY** | [openGrid 1179191](https://makerworld.com/en/models/1179191-opengrid-wall-desk-mounting-framework-ecosystem) · [openConnect 2257440](https://makerworld.com/models/2257440) |
 | Tiles gerados no openGrid Tile Generator | ✅ **CC BY** (mas o código do gerador é BY-NC-SA) | [MakerWorld 1304337](https://makerworld.com/en/models/1304337-opengrid-tile-generator) |
-| Under Sink Storage Shelf (prateleira para baixo da pia) | ⚠️ não confirmada | [MakerWorld 126054](https://makerworld.com/en/models/126054-under-sink-storage-shelf-organizer) |
-| Modern Kitchen Drawer Organizer | ⚠️ não confirmada | [MakerWorld 511102](https://makerworld.com/en/models/511102-modern-kitchen-drawer-organizer) |
-| Caixinhas modulares para gaveta de banheiro | ⚠️ não confirmada | [MakerWorld 1675588](https://makerworld.com/en/models/1675588-bathroom-cabinet-organizer-bins-drawer-storage) |
-| Bathroom drawer organizer (MakerDad404) | ⚠️ não confirmada | [MakerWorld 785183](https://makerworld.com/en/models/785183-bathroom-drawer-organizer) |
-| Kit de banheiro: escova e sabonete (mathiasdela) | ⚠️ não confirmada | [MakerWorld 401729](https://makerworld.com/en/models/401729-bathroom-set-toothbrush-and-soap-accessories) |
-| Porta-escova e organizador de banheiro | ⚠️ não confirmada | [MakerWorld 1005993](https://makerworld.com/en/models/1005993-toothbrush-holder-and-bathroom-organizer) |
+| Under Sink Storage Shelf (prateleira para baixo da pia) | ❌ **CC BY-NC** (conferido) | [MakerWorld 126054](https://makerworld.com/en/models/126054-under-sink-storage-shelf-organizer) |
+| Modern Kitchen Drawer Organizer | ❌ **CC BY-NC** (conferido) | [MakerWorld 511102](https://makerworld.com/en/models/511102-modern-kitchen-drawer-organizer) |
+| Caixinhas modulares para gaveta de banheiro | ❌ Standard Digital File License (conferido) | [MakerWorld 1675588](https://makerworld.com/en/models/1675588-bathroom-cabinet-organizer-bins-drawer-storage) |
+| Bathroom drawer organizer (MakerDad404) | ❌ Standard Digital File License (conferido) | [MakerWorld 785183](https://makerworld.com/en/models/785183-bathroom-drawer-organizer) |
+| Kit de banheiro: escova e sabonete (mathiasdela) | ❌ Standard Digital File License (conferido) | [MakerWorld 401729](https://makerworld.com/en/models/401729-bathroom-set-toothbrush-and-soap-accessories) |
+| Porta-escova e organizador de banheiro | ❌ Standard Digital File License (conferido) | [MakerWorld 1005993](https://makerworld.com/en/models/1005993-toothbrush-holder-and-bathroom-organizer) |
 | ~~Kitchen Packet Organizer~~ | ❌ CC BY-NC-ND | [MakerWorld 143648](https://makerworld.com/en/models/143648-kitchen-packet-organizer) |
 | ~~Baking Ingredients Storage Organizer~~ | ❌ CC BY-NC-ND | [MakerWorld 926528](https://makerworld.com/en/models/926528-baking-ingredients-storage-organizer) |
 | ~~Modular Kitchen Organizer~~ | ❌ CC BY-NC-SA | [MakerWorld 631376](https://makerworld.com/en/models/631376-modular-kitchen-organizer) |
@@ -172,8 +172,8 @@ Estes modelos servem para os produtos que já estão na `planilha-precos-impress
 | #82 Suporte de tampas de panela | Tinkerlabs / XVavron / kleinkort (CC BY) |
 | #34 Kit 10 prendedores de saco | Print-in-place bag clip (CC BY-SA) |
 | #77 Saboneteira, #36 porta-esponja | Modelar no Tinkercad |
-| #88 Porta-escova de dentes | Printables 21249 (conferir a licença) ou modelar |
-| #69 Canaletas de cabos | Modelar, ou Printables 78770 (conferir a licença) |
+| #88 Porta-escova de dentes | Printables 21249 (CC0, pode vender) |
+| #69 Canaletas de cabos | Printables 78770 (CC BY-SA, pode vender com crédito) |
 
 ---
 

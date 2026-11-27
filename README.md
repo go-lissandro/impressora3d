@@ -7,6 +7,11 @@ Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3
 - [`ANUNCIOS-TOP10.md`](ANUNCIOS-TOP10.md): títulos (Mercado Livre, Shopee e TikTok Shop), descrições, variações e palavras-chave dos 10 produtos mais lucrativos.
 - [`ANUNCIOS-DEMAIS-90.md`](ANUNCIOS-DEMAIS-90.md): anúncios dos outros 90 produtos, organizados por categoria.
 - [`MODELOS-UTILIDADES.md`](MODELOS-UTILIDADES.md): modelos 3D de caixas organizadoras e utilidades domésticas, com a licença de cada um (pode vender ou não).
+- [`LINKS-STL.md`](LINKS-STL.md): links de STL para os 100 produtos, com a licença conferida na página de cada modelo, e geradores online para os personalizados.
+- [`CONFIG-PETG-FATIADOR.md`](CONFIG-PETG-FATIADOR.md): perfil completo do PETG Masterprint no fatiador (temperaturas, retração, velocidades) para a S1 Pro e a V3 KE, com a ordem das calibrações.
+- [`PLANO-ARTES.md`](PLANO-ARTES.md): plano semana a semana para criar os modelos-base personalizáveis e as fotos e vídeos dos anúncios, com a rotina de cada pedido.
+- [`GIRO-SEM-ESTOQUE-PARADO.md`](GIRO-SEM-ESTOQUE-PARADO.md): como vender sem deixar produto parado: sob encomenda, prazo de fabricação em cada marketplace, estoque mínimo e regra dos 30 dias.
+- [`PERSONALIZADOS-QUE-VENDEM.md`](PERSONALIZADOS-QUE-VENDEM.md): os 10 personalizados com mais potencial de venda, o que fazer para o Natal e como deixar o anúncio chamativo.
 - [`ANALISE-MERCADO.md`](ANALISE-MERCADO.md): análise dos marketplaces, dos perfis de vendedores, dos produtos que mais saem e do calendário de vendas.
 
 > ⚠️ **O Elo7 encerrou as operações em 11/05/2026.** Os produtos personalizados agora vão para TikTok Shop, Shopee e Instagram/WhatsApp.
@@ -41,6 +46,25 @@ Análise de peças que dão para imprimir em **2 a 4 horas** na Creality Ender 3
 - **Na KE, use filamento "high speed" (PLA de alta velocidade).** O PLA comum não derrete rápido o suficiente acima de cerca de 200 mm/s, e a peça sai fraca ou com falhas de extrusão.
 - **Meça o fator de tempo real:** fatie a mesma peça para as duas impressoras, divida o tempo da KE pelo tempo da S1 Pro e coloque o resultado na planilha. Peças pequenas ganham menos com a velocidade, porque a impressora quase não chega à velocidade máxima.
 - A planilha mostra, para cada produto, o custo e o lucro por hora **nas duas impressoras**, a "impressora sugerida" e o lucro por dia usando as duas.
+### Material: PETG Masterprint
+
+A planilha agora considera **PETG Masterprint** em todos os produtos (R$ 90/kg na aba Premissas; ajuste para o preço que você paga).
+
+Ponto de partida (não há ficha técnica oficial publicada; confira a etiqueta do carretel):
+- Bico de 235 a 245 °C, mesa de 70 a 80 °C, ventoinha da peça de 30 a 50 %.
+- **S1 Pro:** 40 a 60 mm/s, retração de 0,8 a 1,5 mm.
+- **V3 KE:** 150 a 200 mm/s. O PETG não acompanha o PLA de alta velocidade, por isso o fator de tempo da KE passou de 0,5 para 0,65 (aba Premissas, linha 37). Meça com uma peça real.
+- **Mesa PEI lisa:** o PETG gruda demais e pode arrancar a película. Use cola bastão como separador ou a PEI texturizada.
+
+Onde o PETG muda o resultado:
+- **Print-in-place** (prendedor de saco, engrenagens, cubo infinito, articulados): o PETG fecha folgas pequenas. Teste antes e prefira folga de 0,4 a 0,5 mm.
+- **Produtos pensados em PLA seda** (vasos, topos de bolo, enfeites): não há brilho "silk". Use cores sólidas ou PETG transparente (fica ótimo em modo vaso).
+- **Litofania:** funciona em PETG branco, mas o contraste muda. Faça uma amostra.
+- **Letras pequenas:** o PETG solta fiapos. Ajuste a retração e seque o filamento.
+- **Vantagem:** cozinha, banheiro, carro e pets ficam melhores em PETG.
+
+> Os textos dos anúncios (`ANUNCIOS-*.md` e aba Anúncios) ainda citam PLA. Troque para PETG antes de publicar.
+
 **Dica para ganhar tempo:** um **bico de 0,6 mm** (cerca de R$ 15) corta de 30 a 40 % do tempo em vasos e peças grandes, que não precisam de detalhe fino.
 
 ---
